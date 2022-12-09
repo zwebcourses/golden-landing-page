@@ -1,7 +1,7 @@
 <template>
   <section id="features" class="block bg-features-mobile-cover bg-cover bg-center my-8 md:py-8">
     <div class="w-full mx-auto md:hidden">
-      <img src="~/assets/img/section_3/bottels.png" alt="bottels" />
+      <img src="~/assets/img/section_3/bottle-2.png" alt="bottels" />
     </div>
     <Title classes="h-16 md:h-24 w-full md:w-2/3">لماذا جولدن كولاجين؟</Title>
     <div class="w-full mx-auto flex items-center justify-center px-4 relative">

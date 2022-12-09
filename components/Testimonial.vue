@@ -2,9 +2,9 @@
 <!-- border-2 border-x-transparent border-b-transparent border-t-yellow-500  -->
   <section
     id="testimonial"
-    class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8"
+    class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative z-10"
   >
-    <Title classes="h-16 w-full md:w-2/3 md:h-24 rounded-full">أراء المستخدمين</Title>
+    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[838px]">أراء المستخدمين</Title>
     <div class="mx-auto">
       <no-ssr placeholder="Loading...">
         <carousel-3d
@@ -65,7 +65,7 @@ export default {
           "جزاكم الله خيراً . كان عندى تصبغات فى الجلد وبعض الترهلات فى الجبهة والحمد للخ اقدر اقول ان راح اغلبهم وباقى ما كملت شهر",
       },
       {
-        img: "2.jpeg",
+        img: "4.jpeg",
         alt: "review_2",
         name: "مرام ابا الخيل",
         text:
@@ -79,7 +79,7 @@ export default {
           "ممتاز والله . كنه سحر بأقل من 5 دقايق بدات تروح علامات التجاعيد اللى بالخد وحول العين . والله من جد تقل سغرنا 20 سنه",
       },
       {
-        img: "4.jpeg",
+        img: "2.jpeg",
         alt: "review_4",
         name: "سهيل موسى المطيري",
         text:

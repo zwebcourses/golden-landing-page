@@ -5,9 +5,10 @@
   >
     <div class="w-full mx-auto flex items-center justify-center">
       <div
-        class="h-16 w-full md:w-2/3 md:h-32 rounded-full bg-gradient-to-r from-header to-yellow-800 p-1"
+      style="border-radius: 50px;"
+        class="h-24 md:h-[150px] w-full md:w-[993px] bg-gradient-to-r from-header to-yellow-800 p-1"
       >
-        <div class="h-full w-full rounded-full bg-black flex justify-center items-center">
+        <div style="border-radius: 50px;" class="h-full w-full rounded-full bg-black flex justify-center items-center">
           <h5
             class="text-transparent md:text-3xl text-xl text-center uppercase font-bold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"
           >
@@ -23,7 +24,7 @@
       </div>
     </div>
     <div
-      class="w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-start px-4 mt-8 md:my-24 relative"
+      class="w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-start px-4 mt-8 md:my-24 relative md:overflow-visible overflow-hidden"
     >
       <div class="w-full md:w-1/3">
         <h2 class="w-full text-5xl md:text-6xl text-white text-center">سعر المنتج</h2>
@@ -44,8 +45,8 @@
         </div>
 
       </div>
-      <div class="w-full mx-auto -mt-[100px] md:absolute md:top-[-325px] md:left-[0px] md:w-[70%]">
-        <img src="~/assets/img/section_6/bottels_with_stamp.png" alt="bottels" />
+      <div class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-590px] md:left-[0px] md:w-[70%]">
+        <img src="~/assets/img/section_6/bottels_with_stamp1.png" alt="bottels" />
       </div>
     </div>
   </section>

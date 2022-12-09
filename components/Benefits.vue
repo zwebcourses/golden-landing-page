@@ -1,6 +1,6 @@
 <template>
   <section id="benefits" class="bg-benefits-mobile-cover bg-cover bg-center my-8">
-    <Title classes="h-16 md:h-24 w-full md:w-4/6">خصائص المنتج</Title>
+    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[838px] z-10">خصائص المنتج</Title>
     <div
       class="md:w-2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
     >

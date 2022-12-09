@@ -1,6 +1,9 @@
 <template>
-  <section id="about-product" class="block bg-about-mobile-cover bg-cover bg-center my-8 float-none">
-    <Title :classes="'h-16 md:h-24 w-2/3 md:w-1/3'">عن المنتج</Title>
+  <section
+    id="about-product"
+    class="block bg-about-mobile-cover bg-cover bg-center my-8 float-none"
+  >
+    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[838px]">عن المنتج</Title>
     <div
       class="w-5/6 md:w-1/3 mx-auto rounded-md bg-gradient-to-r from-header to-yellow-800 p-1"
     >

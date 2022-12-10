@@ -2,9 +2,7 @@
   <nav
     class="flex items-center justify-between flex-wrap md:px-12 border-header bg-header relative z-30"
   >
-    <div
-      class="flex justify-between w-auto w-full pl-6 pr-2 pb-0"
-    >
+    <div class="flex justify-between w-auto w-full pl-6 pr-2 pb-0">
       <div class="flex items-center">
         <router-link to="/">
           <img
@@ -60,10 +58,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-      // showMenu: false,
-    };
-  },
+  data: () => ({
+    // showMenu: false,
+  })
 };
 </script>

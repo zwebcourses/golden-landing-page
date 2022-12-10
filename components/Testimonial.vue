@@ -31,7 +31,7 @@
                 class="rounded-full mx-auto mt-8"
                 :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
-                stye="pointer-events: none;"
+                style="pointer-events: none;"
                 onContextMenu="return false;"
               />
               <div class="p-2 text-center">

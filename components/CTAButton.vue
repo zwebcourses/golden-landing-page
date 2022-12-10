@@ -7,7 +7,7 @@
         <nuxt-img
           src="/img/section_6/bottom.png"
           alt="call_to_action"
-          stye="pointer-events: none;"
+          style="pointer-events: none;"
           onContextMenu="return false;"
         />
       </a>

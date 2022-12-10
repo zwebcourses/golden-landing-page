@@ -51,7 +51,7 @@
         <nuxt-img
           src="/img/section_6/bottels_with_stamp1.png"
           alt="bottels"
-          stye="pointer-events: none;"
+          style="pointer-events: none;"
           onContextMenu="return false;"
         />
       </div>

@@ -33,7 +33,7 @@
                 :alt="reviewer.alt"
                 style="pointer-events: none;"
                 onContextMenu="return false;"
-                sizes="xl:100vw lg:100vw md:100vw sm:50vw xs:50vw"
+                sizes="xl:50vw lg:50vw md:50vw sm:50vw xs:50vw"
               />
               <div class="p-2 text-center">
                 <h6 class="text-xl font-bold text-black">

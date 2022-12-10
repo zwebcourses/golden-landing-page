@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-contain md:bg-cover lg:bg-center">
+  <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-cover lg:bg-center">
     <TheHeader />
     <!-- Label In Mobile -->
     <div class="md:hidden block flex justify-end -mt-[50px] p-0">

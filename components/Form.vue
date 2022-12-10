@@ -76,7 +76,7 @@ export default {
       this.loading = true;
       let data = new FormData();
       data.append('Name', this.formData.Name)
-      data.append('Phone', `+966 ${this.formData.Phone}`)
+      data.append('Phone', this.formData.Phone)
       let requestOptions = {
         method: "POST",
         body: data,
@@ -94,7 +94,7 @@ export default {
         .catch((e) => {
           console.log(e);
           this.loading = false;
-          alert("هناك خلل ما فى السيرفر!");
+          alert("هناك خلل ما فى السيرفر!" + e);
         });
 
       // =====================================

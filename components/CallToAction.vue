@@ -7,10 +7,10 @@
         class="w-[150px]"
         src="/img/mobile/label.png"
         alt="label"
+        format="webp"
         style="pointer-events: none"
         onContextMenu="return false;"
       />
-        <!-- format="webp" -->
       <div class="absolute top-[44px] left-[34px] flex text-center flex-col flex-wrap">
         <span class="font-extrabold text-sm">عرض حصرى</span>
         <span class="font-bold text-sm">خصم <span class="font-extrabold">٢٥٪</span></span>
@@ -52,22 +52,20 @@
         <!-- Product Image -->
         <div class="md:hidden w-[121%] absolute bottom-[0] right-[-78px]">
           <nuxt-img
-            class="md:hidden block absolute bottom-[-40px] right-[50px]"
+            class="md:hidden block w-[35%] absolute bottom-[-40px] right-[50px]"
             src="/img/mobile/stamp_2.png"
             alt="stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
-            <!-- format="webp"
-            sizes="sm:40vw" -->
+            <!-- format="webp" -->
+            <!-- sizes="sm:50vw" -->
           <nuxt-img
             src="/img/section_1/bottels.png"
             alt="bottels_with_stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
-            <!-- format="webp"
-            sizes="sm:150vw" -->
         </div>
         <div
           class="hidden md:block place-self-center absolute right-[2px] bottom-[-33px] w-[70%]"
@@ -78,8 +76,6 @@
             style="pointer-events: none"
             onContextMenu="return false;"
           />
-            <!-- format="webp"
-            sizes="sm:100vw" -->
         </div>
         <!-- Call To Action -->
         <div

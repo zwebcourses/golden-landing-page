@@ -7,6 +7,7 @@
         class="w-[150px]"
         src="/img/mobile/label.png"
         alt="label"
+        format="webp"
         style="pointer-events: none"
         onContextMenu="return false;"
       />
@@ -51,15 +52,19 @@
         <!-- Product Image -->
         <div class="md:hidden w-[121%] absolute bottom-[0] right-[-78px]">
           <nuxt-img
-            class="md:hidden block w-[35%] absolute bottom-[-40px] right-[50px]"
+            class="md:hidden block absolute bottom-[-40px] right-[50px]"
             src="/img/mobile/stamp_2.png"
             alt="stamp"
+            format="webp"
+            sizes="sm:40vw"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
           <nuxt-img
             src="/img/section_1/bottels.png"
             alt="bottels_with_stamp"
+            format="webp"
+            sizes="sm:150vw"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
@@ -70,6 +75,8 @@
           <nuxt-img
             src="/img/section_1/bottels_with_stamp.png"
             alt="bottels_with_stamp"
+            format="webp"
+            sizes="sm:100vw"
             style="pointer-events: none"
             onContextMenu="return false;"
           />

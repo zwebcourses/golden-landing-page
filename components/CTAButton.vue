@@ -7,6 +7,8 @@
         <nuxt-img
           src="/img/section_6/bottom.png"
           alt="call_to_action"
+          format="webp"
+          sizes="md:150vw sm:50vw"
           style="pointer-events: none;"
           onContextMenu="return false;"
         />

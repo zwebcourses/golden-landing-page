@@ -7,6 +7,8 @@
       <nuxt-img
         src="/img/section_3/bottle-2.png"
         alt="bottels"
+        format="webp"
+        sizes="sm:100vw"
         style="pointer-events: none"
         onContextMenu="return false;"
       />
@@ -21,6 +23,8 @@
         <nuxt-img
           src="/img/section_3/bottels.png"
           alt="bottels"
+          format="webp"
+          sizes="md:100vw"
           style="pointer-events: none"
           onContextMenu="return false;"
         />

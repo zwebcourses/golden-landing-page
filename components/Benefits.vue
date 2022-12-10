@@ -22,6 +22,8 @@
             class="rounded-lg object-cover h-32 w-96"
             :src="`/img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"
+            format="webp"
+            sizes="sm:100vw"
             style="pointer-events: none"
             onContextMenu="return false;"
           />

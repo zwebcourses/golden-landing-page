@@ -51,6 +51,8 @@
         <nuxt-img
           src="/img/section_6/bottels_with_stamp1.png"
           alt="bottels"
+          format="webp"
+          sizes="md:100vw sm:150vw"
           style="pointer-events: none;"
           onContextMenu="return false;"
         />

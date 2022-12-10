@@ -8,6 +8,8 @@
           <nuxt-img
             class="w-[40px] md:w-[80px]"
             src="/img/section_1/ultimate_logo.png"
+            format="webp"
+            sizes="md:80px sm:40px"
             alt="Golden_Collagen"
             style="pointer-events: none"
             onContextMenu="return false;"

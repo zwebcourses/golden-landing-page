@@ -23,7 +23,7 @@
             :src="`/img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"
             format="webp"
-            sizes="sm:100vw"
+            sizes="md:280px sm:280px"
             style="pointer-events: none"
             onContextMenu="return false;"
           />

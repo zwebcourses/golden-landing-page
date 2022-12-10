@@ -1,5 +1,5 @@
 <template>
-  <section id="benefits" class="bg-features-mobile-cover bg-cover bg-center bg-no-repeat my-8">
+  <section id="benefits" class="bg-benefits-mobile-cover md:bg-benefits-cover bg-cover bg-center bg-no-repeat my-8">
     <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px] z-10"
     radius="rounded-[20px]">خصائص المنتج</Title>
     <div

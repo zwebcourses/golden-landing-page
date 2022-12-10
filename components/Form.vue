@@ -25,21 +25,26 @@
               class="form-control block w-3/4 px-3 py-0.5 text-base font-bold text-black bg-white bg-clip-padding border border-solid border-header rounded-md transition ease-in-out m-0 focus:text-header focus:bg-black focus:border-header focus:outline-none"
               id="name"
               name="Name"
+              v-model="formData.Name"
               aria-describedby="name"
               placeholder="من فضلك اكتب اسمك"
               required
             />
           </div>
-          <div class="form-group mb-6 flex justify-center">
+          <div class="form-group mb-6 flex justify-center w-3/4 mx-auto">
             <input
               type="text"
-              class="form-control block w-3/4 px-3 py-0.5 text-base font-bold text-black bg-white bg-clip-padding border border-solid border-header rounded-md transition ease-in-out m-0 focus:text-header focus:bg-black focus:border-header focus:outline-none"
+              class="form-control block w-full px-3 py-0.5 text-base font-bold text-black bg-white bg-clip-padding border border-solid border-header rounded-md transition ease-in-out m-0 focus:text-header focus:bg-black focus:border-header focus:outline-none"
               id="phone"
               name="Phone"
+              v-model="formData.Phone"
               aria-describedby="phone"
               placeholder="من فضلك ادخل رقم الجوال"
               required
             />
+            <select disabled>
+              <option value="+966">966</option>
+            </select>
           </div>
           <div class="w-full flex justify-center">
             <input
@@ -61,27 +66,57 @@ export default {
   },
   data: () => ({
     loading: false,
+    formData: {
+      Name: "",
+      Phone: "",
+    },
   }),
   methods: {
     onSubmit() {
-      this.loading = true
-      const form = document.getElementById("my-form");
-      const data = new FormData(form);
+      this.loading = true;
+      let data = JSON.stringify(this.formData);
+      let requestOptions = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: data,
+      };
       fetch(
         "https://script.google.com/macros/s/AKfycbzlx58hlnA2vssOHPjw_qebuwoDoB18OTz2DtOUVV3wciDaiq8V-WPTiX0QTeKyqQcT-w/exec",
-        {
-          method: "POST",
-          body: data,
-        }
+        requestOptions
       )
-        .then(() => {
-          this.loading = false
+        .then((response) => response.json())
+        .then((result) => {
+          console.log(result);
+          this.loading = false;
           this.$router.push({ name: "Thanks" });
         })
         .catch((e) => {
-          this.loading = false
+          console.log(e);
+          this.loading = false;
           alert("هناك خلل ما فى السيرفر!");
         });
+
+      // =====================================
+      // const form = document.getElementById("my-form");
+      // const data = new FormData(form);
+      // console.log(form);
+      // fetch(
+      //   "https://script.google.com/macros/s/AKfycbzlx58hlnA2vssOHPjw_qebuwoDoB18OTz2DtOUVV3wciDaiq8V-WPTiX0QTeKyqQcT-w/exec",
+      //   {
+      //     method: "POST",
+      //     body: data,
+      //   }
+      // )
+      //   .then(() => {
+      //     this.loading = false
+      //     this.$router.push({ name: "Thanks" });
+      //   })
+      //   .catch((e) => {
+      //     this.loading = false
+      //     alert("هناك خلل ما فى السيرفر!");
+      //   });
     },
   },
 };

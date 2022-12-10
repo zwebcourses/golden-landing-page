@@ -5,10 +5,11 @@
   >
     <div class="w-full mx-auto flex items-center justify-center">
       <div
-      style="border-radius: 50px;"
-        class="h-24 md:h-[150px] w-full md:w-[993px] bg-gradient-to-r from-header to-yellow-800 p-1"
+        class="h-24 md:h-[150px] w-full md:w-[993px] rounded-[20px] md:rounded-[50px] bg-gradient-to-r from-header to-yellow-800 p-1"
       >
-        <div style="border-radius: 50px;" class="h-full w-full rounded-full bg-black flex justify-center items-center">
+        <div
+          class="h-full w-full rounded-[20px] md:rounded-[50px] bg-black flex justify-center items-center"
+        >
           <h5
             class="text-transparent md:text-3xl text-xl text-center uppercase font-bold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"
           >
@@ -43,21 +44,22 @@
         <div class="hidden mx-auto w-1/2 md:flex md:items-center md:justify-center mt-4">
           <CTAButton />
         </div>
-
       </div>
-      <div class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-590px] md:left-[0px] md:w-[70%]">
+      <div
+        class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-590px] md:left-[0px] md:w-[70%]"
+      >
         <img src="~/assets/img/section_6/bottels_with_stamp1.png" alt="bottels" />
       </div>
     </div>
   </section>
 </template>
 <script>
-import CTAButton from "~/components/CTAButton.vue"
+import CTAButton from "~/components/CTAButton.vue";
 export default {
   components: {
-    CTAButton
-  }
-}
+    CTAButton,
+  },
+};
 </script>
 <style>
 .strikethrough {

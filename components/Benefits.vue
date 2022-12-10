@@ -1,6 +1,7 @@
 <template>
   <section id="benefits" class="bg-features-mobile-cover bg-cover bg-center bg-no-repeat my-8">
-    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px] z-10">خصائص المنتج</Title>
+    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px] z-10"
+    radius="rounded-[20px]">خصائص المنتج</Title>
     <div
       class="md:w-2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
     >

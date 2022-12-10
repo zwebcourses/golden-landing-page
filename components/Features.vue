@@ -3,7 +3,8 @@
     <div class="w-full mx-auto md:hidden">
       <img src="~/assets/img/section_3/bottle-2.png" alt="bottels" />
     </div>
-    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[993px]">لماذا جولدن كولاجين؟</Title>
+    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[993px]"
+    radius="rounded-[20px]">لماذا جولدن كولاجين؟</Title>
     <div class="w-full mx-auto flex items-center justify-center px-4 relative">
       <div class="w-full mx-auto hidden md:block absolute top-[-150px] right-[-60px] w-1/2">
         <img src="~/assets/img/section_3/bottels.png" alt="bottels" />

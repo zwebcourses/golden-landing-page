@@ -3,7 +3,8 @@
     id="about-product"
     class="block bg-about-mobile-cover bg-cover bg-center my-8 float-none"
   >
-    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[838px]">عن المنتج</Title>
+    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px]"
+    radius="rounded-[20px]">عن المنتج</Title>
     <div
       class="w-5/6 md:w-1/3 mx-auto rounded-md bg-gradient-to-r from-header to-yellow-800 p-1"
     >

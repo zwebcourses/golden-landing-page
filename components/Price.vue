@@ -46,7 +46,7 @@
         </div>
       </div>
       <div
-        class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-590px] md:left-[0px] md:w-[70%]"
+        class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-488px] md:left-[0px] md:w-[70%]"
       >
         <img src="~/assets/img/section_6/bottels_with_stamp1.png" alt="bottels" />
       </div>

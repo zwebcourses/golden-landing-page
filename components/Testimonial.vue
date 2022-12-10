@@ -32,7 +32,7 @@
                 :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
                 format="webp"
-                sizes="md:120px sm:80px"
+                sizes="md:120px sm:80px lg:120px"
                 style="pointer-events: none;"
                 onContextMenu="return false;"
               />

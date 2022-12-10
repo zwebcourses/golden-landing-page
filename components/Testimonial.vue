@@ -4,7 +4,7 @@
     id="testimonial"
     class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative z-10"
   >
-    <Title classes="h-16 md:h-[150px] w-2/3 md:w-[838px]"
+    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px]"
     radius="rounded-[20px]">أراء المستخدمين</Title>
     <div class="mx-auto">
       <no-ssr placeholder="Loading...">

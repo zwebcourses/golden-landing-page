@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto flex items-center justify-center px-4 mb-8">
-    <div :class="`${classes} ${radius}`" class="w-full bg-gradient-to-r from-header to-yellow-800 p-1">
+    <div :class="`${classes} ${radius}`" class="bg-gradient-to-r from-header to-yellow-800 p-1">
       <div :class="radius" class="h-full w-full bg-black flex justify-center items-center">
         <h2
           class="text-transparent md:text-7xl text-3xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"

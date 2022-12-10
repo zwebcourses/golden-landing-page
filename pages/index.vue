@@ -13,6 +13,7 @@
 <script>
 export default {
   components: {
+    Loader: () => import(/* webpackChunkName: 'Loader' */ "~/components/Loader.vue"),
     CallToAction: () => import(/* webpackChunkName: 'CallToAction' */ "~/components/CallToAction.vue"),
     About: () => import(/* webpackChunkName: 'About' */ "~/components/About.vue"),
     Features: () => import(/* webpackChunkName: 'Features' */ "~/components/Features.vue"),

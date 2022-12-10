@@ -8,10 +8,10 @@
         class="h-24 md:h-[150px] w-full md:w-[993px] rounded-[20px] md:rounded-[50px] bg-gradient-to-r from-header to-yellow-800 p-1"
       >
         <div
-          class="h-full w-full rounded-[20px] md:rounded-[50px] bg-black flex justify-center items-center"
+          class="h-full w-full rounded-[20px] md:rounded-[50px] bg-[#1a1b1a] flex justify-center items-center"
         >
           <h5
-            class="text-transparent md:text-3xl text-xl text-center uppercase font-bold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"
+            class="text-transparent md:text-3xl text-xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"
           >
             <span class="md:hidden block">
               نشمن لك اختفاء التجاعيد<br />

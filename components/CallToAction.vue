@@ -4,7 +4,7 @@
     <!-- Label In Mobile -->
     <div class="md:hidden block flex justify-end -mt-[50px] p-0">
       <img  class="w-[150px]" src="~/assets/img/mobile/label.png" alt="label" />
-      <div class="absolute top-[44px] left-[37px] flex text-center flex-col flex-wrap">
+      <div class="absolute top-[44px] left-[36px] flex text-center flex-col flex-wrap">
         <span class="font-extrabold text-sm">عرض حصرى</span>
         <span class="font-bold text-sm">خصم <span class="font-extrabold">٢٥٪</span></span>
         <span class="font-bold text-sm">لفترة محدوده</span>
@@ -16,14 +16,14 @@
         <div
           class="w-full md:w-5/6 md:p-5 flex flex-col md:flex-row flex-wrap justify-center items-center"
         >
-          <div class="">
+          <div>
             <h1
-              class="md:text-7xl text-header text-4xl text-center uppercase bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125 product-name"
+              class="md:text-7xl text-header text-4xl text-center uppercase bg-clip-text bg-gradient-to-r from-header to-yellow-700 lg:scale-x-125 product-name"
             >
               Golden Collagen
             </h1>
             <p
-              class="md:text-8xl text-5xl text-center text-transparent bg-clip-text bg-gradient-to-r from-header to-yellow-800 scale-x-105 lg:scale-x-125"
+              class="md:text-8xl text-5xl text-center text-transparent bg-clip-text bg-gradient-to-r from-header to-yellow-700 scale-x-105 lg:scale-x-125"
             >
               جولدن كولاجين
             </p>

@@ -9,7 +9,7 @@
     <div class="mx-auto">
       <no-ssr placeholder="Loading...">
         <carousel-3d
-          :autoplay="false"
+          :autoplay="true"
           :autoplay-timeout="3000"
           :controls-visible="true"
           :controls-prev-html="'&#x203A; '"

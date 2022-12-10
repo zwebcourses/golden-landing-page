@@ -7,7 +7,7 @@
     <div class="block p-6 shadow-lg w-full md:w-1/3">
       <form
         id="my-form"
-        class="bg-black p-6 rounded-3xl border-4 border-header"
+        class="bg-black p-6 rounded-[63px] border-4 border-header"
         method="POST"
         v-on:submit.prevent="onSubmit"
       >

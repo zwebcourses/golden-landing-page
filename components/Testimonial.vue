@@ -32,7 +32,7 @@
                 :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
                 format="webp"
-                sizes="md:100vw sm:100vw"
+                sizes="md:120px sm:80px"
                 style="pointer-events: none;"
                 onContextMenu="return false;"
               />
@@ -109,6 +109,10 @@ export default {
   .carousel-3d-container {
     height: 450px !important;
   }
+  .carousel-3d-slide img {
+  width: 80px !important;
+  height: 80px !important;
+}
 }
 .carousel-3d-slide {
   height: unset !important;

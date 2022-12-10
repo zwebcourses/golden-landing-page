@@ -74,12 +74,11 @@ export default {
   methods: {
     onSubmit() {
       this.loading = true;
-      let data = JSON.stringify(this.formData);
+      let data = new FormData();
+      data.append('Name', this.formData.Name)
+      data.append('Phone', `+966 ${this.formData.Phone}`)
       let requestOptions = {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: data,
       };
       fetch(

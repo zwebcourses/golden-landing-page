@@ -28,6 +28,7 @@ export default {
     title: "جولدن كولاجين",
     meta: [
       { charset: 'utf-8' },
+      { lang: 'ar' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',

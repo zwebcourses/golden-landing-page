@@ -10,7 +10,7 @@
         style="pointer-events: none"
         onContextMenu="return false;"
       />
-      <div class="absolute top-[44px] left-[36px] flex text-center flex-col flex-wrap">
+      <div class="absolute top-[44px] left-[34px] flex text-center flex-col flex-wrap">
         <span class="font-extrabold text-sm">عرض حصرى</span>
         <span class="font-bold text-sm">خصم <span class="font-extrabold">٢٥٪</span></span>
         <span class="font-bold text-sm">لفترة محدوده</span>

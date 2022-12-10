@@ -42,7 +42,7 @@
               placeholder="من فضلك ادخل رقم الجوال"
               required
             />
-            <select disabled>
+            <select class="bg-header">
               <option value="+966">966</option>
             </select>
           </div>

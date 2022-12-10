@@ -26,7 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         'cta-cover': "url('~@/static/img/section_1/background.png')",
-        'cta-mobile-cover': "url('~@/assets/img/mobile/background.png')",
+        'cta-mobile-cover': "url('~@/static/img/mobile/background.png')",
         'about-mobile-cover': "url('~@/static/img/section_2/background.png')",
         'features-mobile-cover': "url('~@/static/img/section_3/background.png')",
         'benefits-cover': "url('~@/static/img/section_4/background.png')",

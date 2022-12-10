@@ -87,14 +87,12 @@ export default {
       )
         .then((response) => response.json())
         .then((result) => {
-          console.log(result);
           this.loading = false;
           this.$router.push({ name: "Thanks" });
         })
         .catch((e) => {
-          console.log(e);
           this.loading = false;
-          alert("هناك خلل ما فى السيرفر!" + e);
+          alert("هناك خلل ما فى السيرفر!");
         });
 
       // =====================================

@@ -3,7 +3,13 @@
     <TheHeader />
     <!-- Label In Mobile -->
     <div class="md:hidden block flex justify-end -mt-[50px] p-0">
-      <img  class="w-[150px]" src="~/assets/img/mobile/label.png" alt="label" />
+      <nuxt-img
+        class="w-[150px]"
+        src="/img/mobile/label.png"
+        alt="label"
+        style="pointer-events: none"
+        onContextMenu="return false;"
+      />
       <div class="absolute top-[44px] left-[36px] flex text-center flex-col flex-wrap">
         <span class="font-extrabold text-sm">عرض حصرى</span>
         <span class="font-bold text-sm">خصم <span class="font-extrabold">٢٥٪</span></span>
@@ -44,22 +50,34 @@
       <div class="flex flex-row justify-end relative">
         <!-- Product Image -->
         <div class="md:hidden w-[121%] absolute bottom-[0] right-[-78px]">
-          <img class="md:hidden block w-[35%] absolute bottom-[-40px] right-[50px]" src="~/assets/img/mobile/stamp_2.png" alt="stamp">
-          <img
-            src="~/assets/img/section_1/bottels.png"
+          <nuxt-img
+            class="md:hidden block w-[35%] absolute bottom-[-40px] right-[50px]"
+            src="/img/mobile/stamp_2.png"
+            alt="stamp"
+            style="pointer-events: none"
+            onContextMenu="return false;"
+          />
+          <nuxt-img
+            src="/img/section_1/bottels.png"
             alt="bottels_with_stamp"
+            style="pointer-events: none"
+            onContextMenu="return false;"
           />
         </div>
         <div
           class="hidden md:block place-self-center absolute right-[2px] bottom-[-33px] w-[70%]"
         >
-          <img
-            src="~/assets/img/section_1/bottels_with_stamp.png"
+          <nuxt-img
+            src="/img/section_1/bottels_with_stamp.png"
             alt="bottels_with_stamp"
+            style="pointer-events: none"
+            onContextMenu="return false;"
           />
         </div>
         <!-- Call To Action -->
-        <div class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 z-10">
+        <div
+          class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 z-10"
+        >
           <CTAButton />
         </div>
       </div>
@@ -70,8 +88,10 @@
 <script>
 export default {
   components: {
-    TheHeader: () => import(/* webpackChunkName: 'TheHeader' */ "~/components/TheHeader.vue"),
-    CTAButton: () => import(/* webpackChunkName: 'CTAButton' */ "~/components/CTAButton.vue"),
+    TheHeader: () =>
+      import(/* webpackChunkName: 'TheHeader' */ "~/components/TheHeader.vue"),
+    CTAButton: () =>
+      import(/* webpackChunkName: 'CTAButton' */ "~/components/CTAButton.vue"),
   },
 };
 </script>

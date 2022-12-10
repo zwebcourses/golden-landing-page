@@ -48,7 +48,12 @@
       <div
         class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-488px] md:left-[0px] md:w-[70%]"
       >
-        <img src="~/assets/img/section_6/bottels_with_stamp1.png" alt="bottels" />
+        <nuxt-img
+          src="/img/section_6/bottels_with_stamp1.png"
+          alt="bottels"
+          stye="pointer-events: none;"
+          onContextMenu="return false;"
+        />
       </div>
     </div>
   </section>

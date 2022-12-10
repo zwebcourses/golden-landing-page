@@ -7,12 +7,12 @@
     >
       <div class="md:p-8 w-3/4 md:w-1/3 md:flex md:justify-center p-2 rounded-xl border border-black md:border-transparent" v-for="(benefit, i) in benefits" :key="i">
         <div class="md:w-full bg-white rounded-xl" style="box-shadow: inset 0px -20px 3px 0px black">
-          <img
+           <nuxt-img
             class="rounded-lg object-cover h-32 w-96"
-            :src="require(`~/assets/img/mobile/benefits/${benefit.img}`)"
+            :src="`/img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"
             style="pointer-events: none;"
-            onContextMenu="return false;" 
+            onContextMenu="return false;"
           />
           <div class="p-5 h-48">
             <h5

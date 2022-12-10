@@ -1,11 +1,12 @@
 <template>
-<!-- border-2 border-x-transparent border-b-transparent border-t-yellow-500  -->
+  <!-- border-2 border-x-transparent border-b-transparent border-t-yellow-500  -->
   <section
     id="testimonial"
     class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative z-10"
   >
-    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px]"
-    radius="rounded-[20px]">أراء المستخدمين</Title>
+    <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px]" radius="rounded-[20px]"
+      >أراء المستخدمين</Title
+    >
     <div class="mx-auto">
       <no-ssr placeholder="Loading...">
         <carousel-3d
@@ -26,12 +27,12 @@
             :index="i"
           >
             <div class="bg-white">
-              <img
+              <nuxt-img
                 class="rounded-full mx-auto mt-8"
-                :src="require(`~/assets/img/mobile/reviewers/${reviewer.img}`)"
+                :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
                 stye="pointer-events: none;"
-                onContextMenu="return false;" 
+                onContextMenu="return false;"
               />
               <div class="p-2 text-center">
                 <h6 class="text-xl font-bold text-black">
@@ -100,13 +101,13 @@ export default {
 
 <style>
 .carousel-3d-container {
-    height: 345px !important;
-  }
-@media (min-width:320px)  { 
+  height: 345px !important;
+}
+@media (min-width: 320px) {
   .carousel-3d-container {
     height: 450px !important;
   }
- }
+}
 .carousel-3d-slide {
   height: unset !important;
 }

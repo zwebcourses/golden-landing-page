@@ -76,7 +76,7 @@ export default {
       this.loading = true;
       let data = new FormData();
       data.append('Name', this.formData.Name)
-      data.append('Phone', this.formData.Phone)
+      data.append('Phone', `+996 ${this.formData.Phone}`)
       let requestOptions = {
         method: "POST",
         body: data,

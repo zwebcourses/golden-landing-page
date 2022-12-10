@@ -7,11 +7,11 @@
         <nuxt-img
           src="/img/section_6/bottom.png"
           alt="call_to_action"
-          format="webp"
-          sizes="md:300px sm:200px"
           style="pointer-events: none;"
           onContextMenu="return false;"
         />
+          <!-- format="webp" -->
+          <!-- sizes="md:300px sm:200px" -->
       </a>
     </div>
   </div>

@@ -54,16 +54,5 @@ export default {
         autoprefixer: {},
       },
     },
-  },
-  image: {
-    presets: {
-      avatar: {
-        modifiers: {
-          format: 'webp',
-          width: 50,
-          height: 50
-        }
-      }
-    }
   }
 }

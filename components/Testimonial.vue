@@ -31,7 +31,6 @@
                 class="rounded-full mx-auto mt-8"
                 :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
-                preset="avatar"
                 style="pointer-events: none;"
                 onContextMenu="return false;"
               />

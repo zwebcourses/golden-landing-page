@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="flex items-center justify-between flex-wrap lg:px-12 shadow border-solid border-t-2 border-header bg-header relative z-30"
+    class="flex items-center justify-between flex-wrap md:px-12 border-header bg-header relative z-30"
   >
     <div
-      class="flex justify-between w-auto w-full border-b-0 pl-6 pr-2 border-solid border-b-2 pb-0"
+      class="flex justify-between w-auto w-full pl-6 pr-2 pb-0"
     >
       <div class="flex items-center">
         <router-link to="/">

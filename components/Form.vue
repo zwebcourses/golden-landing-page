@@ -65,7 +65,7 @@ export default {
           body: data,
         }
       ).then(() => {
-        alert("تم الطلب بنجاح!");
+        this.$router.push({name: 'Thanks'})
       })
       .catch((e) => {
         alert("هناك خلل ما فى السيرفر!");

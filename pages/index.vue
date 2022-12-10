@@ -23,5 +23,18 @@ export default {
     Form: () => import(/* webpackChunkName: 'Form' */ "~/components/Form.vue"),
     TheFooter: () => import(/* webpackChunkName: 'TheFooter' */ "~/components/TheFooter.vue"),
   },
+  head: {
+    title: "جولدن كولاجين",
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'البديل الطبيعى لحقن البوتكس'
+      }
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+  }
 };
 </script>

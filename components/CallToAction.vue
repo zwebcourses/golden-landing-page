@@ -77,7 +77,7 @@
         </div>
         <!-- Call To Action -->
         <div
-          class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 z-10"
+          class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 z-10 mx-auto"
         >
           <CTAButton />
         </div>

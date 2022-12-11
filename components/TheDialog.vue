@@ -27,7 +27,9 @@
           <span class="sr-only">Close modal</span>
         </button>
         <div class="text-center">
-          <Form />
+          <Form>
+            سجل بياناتك لطلب المنتج الأن
+          </Form>
         </div>
       </div>
     </div>

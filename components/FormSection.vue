@@ -5,7 +5,9 @@
       class="block bg-form-mobile-cover bg-cover bg-center md:p-8 md:flex md:justify-center md:items-center"
     >
       <div class="block p-6 shadow-lg w-full md:w-1/3">
-        <Form />
+        <Form>
+          سجل بياناتك لطلب المنتج الأن
+        </Form>
       </div>
     </section>
   </div>

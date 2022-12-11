@@ -3,7 +3,7 @@
     id="features"
     class="block bg-features-mobile-cover bg-cover bg-center my-8 md:py-8"
   >
-    <div class="w-full mx-auto md:hidden">
+    <div class="w-full mx-auto lg:hidden">
       <nuxt-img
         src="/img/section_3/bottle-2.png"
         alt="bottels"
@@ -16,7 +16,7 @@
     >
     <div class="w-full mx-auto flex items-center justify-center px-4 relative">
       <div
-        class="w-full mx-auto hidden md:block absolute top-[-150px] right-[-60px] w-1/2"
+        class="w-full mx-auto hidden lg:block"
       >
         <nuxt-img
           src="/img/section_3/bottels.png"
@@ -26,7 +26,7 @@
         />
       </div>
       <div class="w-full mx-auto md:flex md:justify-end">
-        <ul class="md:w-1/2 list-none list-inside text-white text-2xl md:text-5xl">
+        <ul class="w-full list-none list-inside text-white text-2xl md:text-5xl">
           <li><span class="font-bold">-</span> البديل الطبيعى لحقن البوتكس</li>
           <li><span class="font-bold">-</span> تأثير فورى لاخفاء التجاعيد</li>
           <li><span class="font-bold">-</span> يقى من الشيخوخة المبكرة</li>

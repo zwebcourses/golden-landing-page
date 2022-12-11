@@ -11,7 +11,7 @@
         <h6
           class="text-center text-2xl font-bold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125 mb-4"
         >
-          سجل بياناتك لطلب المنتج
+          <slot />
         </h6>
       </div>
       <div class="form-group mb-6 flex justify-center">

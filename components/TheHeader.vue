@@ -23,7 +23,7 @@
             عن المنتج
           </a>
           <a
-            href="#"
+            href="#how-to-use-product"
             class="inline-block md:hidden p-2 clickable text-[0.5rem] hover:text-header rounded hover:bg-black mr-2"
           >
             طريقة الاستخدام
@@ -51,6 +51,12 @@
             class="hidden md:inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
           >
             خصائص المنتج
+          </a>
+          <a
+            href="#how-to-use-product"
+            class="hidden md:inline-block clickable mt-0 hover:text-header px-4 py-2 rounded hover:bg-black mr-2"
+          >
+            طريقة الاستخدام
           </a>
           <a
             href="#testimonial"

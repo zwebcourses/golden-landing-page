@@ -27,18 +27,18 @@
     <div
       class="w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-start px-4 mt-8 md:my-24 relative md:overflow-visible overflow-hidden"
     >
-      <div class="w-full md:w-1/3">
-        <h2 class="w-full text-5xl md:text-6xl text-white text-center">سعر المنتج</h2>
+      <div class="w-full md:w-1/2">
+        <h2 class="w-full text-5xl lg:text-7xl text-white text-center">سعر المنتج</h2>
         <div class="flex items-center justify-center mt-4">
-          <span class="text-5xl md:text-6xl text-white ml-2 strikethrough">٤٠٠</span>
-          <p class="text-xl md:text-3xl text-gray-300">ريال سعودي</p>
+          <span class="text-5xl lg:text-7xl text-white ml-2 strikethrough">٤٠٠</span>
+          <p class="text-xl lg:text-4xl text-gray-300">ريال سعودي</p>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <h2 class="text-3xl text-white">عرض حصري</h2>
+          <h2 class="text-3xl lg:text-4xl text-white">عرض حصري</h2>
         </div>
         <div class="flex items-center justify-center mt-4">
-          <h2 class="text-5xl md:text-6xl text-white ml-2">٣٠٠</h2>
-          <p class="text-xl md:text-3xl text-gray-300">ريال سعودي</p>
+          <h2 class="text-5xl lg:text-7xl text-white ml-2">٣٠٠</h2>
+          <p class="text-xl lg:text-4xl text-gray-300">ريال سعودي</p>
         </div>
 
         <div class="hidden mx-auto w-1/2 md:flex md:items-center md:justify-center mt-4">
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div
-        class="w-[129%] mx-auto -mt-[100px] -mr-[85px] md:absolute md:top-[-488px] md:left-[0px] md:w-[70%]"
+        class="lg:w-full w-[129%] mx-auto -mt-[100px] -mr-[85px]"
       >
         <nuxt-img
           src="/img/section_6/bottels_with_stamp1.png"

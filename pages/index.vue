@@ -39,7 +39,7 @@ export default {
       import(/* webpackChunkName: 'FloatBtn' */ "~/components/FloatBtn.vue"),
   },
   data: () => ({
-    dialog: true,
+    dialog: false,
   })
 };
 </script>

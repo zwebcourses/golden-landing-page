@@ -2,7 +2,7 @@
   <!-- border-2 border-x-transparent border-b-transparent border-t-yellow-500  -->
   <section
     id="testimonial"
-    class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative z-10"
+    class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative"
   >
     <Title classes="h-16 md:h-[150px] w-3/4 md:w-[838px]" radius="rounded-[20px]"
       >أراء المستخدمين</Title

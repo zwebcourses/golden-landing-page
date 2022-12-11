@@ -1,7 +1,7 @@
 <template>
   <section
     id="price"
-    class="block bg-price-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8"
+    class="block bg-price-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative overflow-hidden"
   >
     <div class="w-full mx-auto flex items-center justify-center">
       <div

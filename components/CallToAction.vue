@@ -10,7 +10,6 @@
         format="webp"
         style="pointer-events: none"
         onContextMenu="return false;"
-        sizes="xl:20vw lg:20vw md:20vw sm:20vw xs:20vw"
       />
       <div class="absolute top-[44px] left-[34px] flex text-center flex-col flex-wrap">
         <span class="font-extrabold text-sm">عرض حصرى</span>
@@ -58,16 +57,12 @@
             alt="stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
-            sizes="xl:20vw lg:20vw md:20vw sm:20vw xs:20vw"
           />
-            <!-- format="webp" -->
-            <!-- sizes="sm:50vw" -->
           <nuxt-img
             src="/img/section_1/bottels.png"
             alt="bottels_with_stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
-            sizes="xl:100vw lg:20vw md:20vw sm:120vw xs:100vw"
           />
         </div>
         <div

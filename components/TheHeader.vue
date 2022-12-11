@@ -11,10 +11,7 @@
             alt="Golden_Collagen"
             style="pointer-events: none"
             onContextMenu="return false;"
-            sizes="xl:10vw lg:10vw md:10vw sm:10vw xs:10vw"
           />
-            <!-- format="webp"
-            sizes="md:80px sm:40px" -->
         </router-link>
       </div>
       <div class="menu w-auto flex-grow flex items-center md:px-8">

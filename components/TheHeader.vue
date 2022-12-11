@@ -11,6 +11,7 @@
             alt="Golden_Collagen"
             style="pointer-events: none"
             onContextMenu="return false;"
+            sizes="xl:10vw lg:10vw md:10vw sm:10vw xs:10vw"
           />
             <!-- format="webp"
             sizes="md:80px sm:40px" -->
@@ -20,19 +21,19 @@
         <div class="md:text-xl font-bold text-black flex-grow">
           <a
             href="#about-product"
-            class="inline-block md:hidden p-2 clickable text-xs hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
           >
             عن المنتج
           </a>
           <a
             href="#"
-            class="inline-block md:hidden p-2 clickable text-xs hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
           >
             طريقة الاستخدام
           </a>
           <a
             href="#testimonial"
-            class="inline-block md:hidden p-2 clickable text-xs hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
           >
             اراء المستخدمين
           </a>

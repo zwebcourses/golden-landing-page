@@ -9,6 +9,7 @@
           alt="call_to_action"
           style="pointer-events: none;"
           onContextMenu="return false;"
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         />
           <!-- format="webp" -->
           <!-- sizes="md:300px sm:200px" -->

@@ -25,9 +25,9 @@
       </div>
     </div>
     <div
-      class="w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-start px-4 mt-8 md:my-24 relative md:overflow-visible overflow-hidden"
+      class="w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-start px-4 mt-8 relative md:overflow-visible overflow-hidden"
     >
-      <div class="w-full md:w-1/2">
+      <div class="w-full">
         <h2 class="w-full text-5xl lg:text-7xl text-white text-center">سعر المنتج</h2>
         <div class="flex items-center justify-center mt-4">
           <span class="text-5xl lg:text-7xl text-white ml-2 strikethrough">٤٠٠</span>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div
-        class="lg:w-full w-[129%] mx-auto -mt-[100px] -mr-[85px]"
+        class="lg:w-full md:w-[129%] mx-auto lg:-mt-[301px] -mt-[230px] -mr-[100px] lg:-mr-[283px]"
       >
         <nuxt-img
           src="/img/section_6/bottels_with_stamp1.png"

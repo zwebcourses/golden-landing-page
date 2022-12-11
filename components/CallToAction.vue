@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-cover lg:bg-center">
+  <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-cover lg:bg-center overflow-hidden">
     <TheHeader />
     <!-- Label In Mobile -->
     <div class="md:hidden block flex justify-end -mt-[50px] p-0">
@@ -50,7 +50,7 @@
       </div>
       <div class="flex flex-row justify-end relative">
         <!-- Product Image -->
-        <div class="md:hidden w-[121%] absolute bottom-[0] right-[-78px]">
+        <div class="md:hidden w-[140%] absolute bottom-[0] -right-[105px]">
           <nuxt-img
             class="md:hidden block w-[40%] absolute bottom-[-40px] right-[50px]"
             src="/img/mobile/stamp_2.png"

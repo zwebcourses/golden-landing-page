@@ -7,10 +7,10 @@
       >خصائص المنتج</Title
     >
     <div
-      class="md:w-2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
+      class="lg:w-full md:2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
     >
       <div
-        class="md:p-8 w-3/4 md:w-1/3 md:flex md:justify-center p-2 rounded-xl border border-black md:border-transparent"
+        class="md:p-8 w-3/4 lg:w-1/3 md:w-1/2 md:flex md:justify-center p-2 rounded-xl border border-black md:border-transparent"
         v-for="(benefit, i) in benefits"
         :key="i"
       >
@@ -19,7 +19,7 @@
           style="box-shadow: inset 0px -20px 3px 0px black"
         >
           <nuxt-img
-            class="rounded-lg object-cover h-32 w-96"
+            class="rounded-lg object-cover h-32 w-full"
             :src="`/img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"
             style="pointer-events: none"

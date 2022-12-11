@@ -7,8 +7,8 @@
       >طريقة الاستخدام</Title
     >
     <div>
-      <div class="flex flex-col md:flex-row">
-        <div v-for="(step, i) in steps" :key="i" class="w-full md:w-1/3 text-center px-8 mb-2">
+      <div class="flex flex-col lg:flex-row">
+        <div v-for="(step, i) in steps" :key="i" class="w-full lg:w-1/3 text-center px-8 mb-2">
           <StepCard>
             {{ step }}
           </StepCard>

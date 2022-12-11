@@ -18,19 +18,19 @@
         <div class="md:text-xl font-bold text-black flex-grow">
           <a
             href="#about-product"
-            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.5rem] hover:text-header rounded hover:bg-black mr-2"
           >
             عن المنتج
           </a>
           <a
             href="#"
-            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.5rem] hover:text-header rounded hover:bg-black mr-2"
           >
             طريقة الاستخدام
           </a>
           <a
             href="#testimonial"
-            class="inline-block md:hidden p-2 clickable text-[0.6rem] hover:text-header rounded hover:bg-black mr-2"
+            class="inline-block md:hidden p-2 clickable text-[0.5rem] hover:text-header rounded hover:bg-black mr-2"
           >
             اراء المستخدمين
           </a>

@@ -6,7 +6,7 @@
     >
       <div class="block p-6 shadow-lg w-full lg:w-1/3 md:w-1/2">
         <Form>
-          سجل بياناتك لطلب المنتج الأن
+          سجل بياناتك لطلب المنتج
         </Form>
       </div>
     </section>

@@ -28,7 +28,7 @@
         </button>
         <div class="text-center">
           <Form>
-            سجل بياناتك لطلب المنتج الأن
+            تواصل معنا
           </Form>
         </div>
       </div>

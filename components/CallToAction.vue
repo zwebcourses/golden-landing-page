@@ -7,7 +7,6 @@
         class="w-[110px] h-[170px]"
         src="/img/mobile/label.png"
         alt="label"
-        format="webp"
         style="pointer-events: none"
         onContextMenu="return false;"
       />

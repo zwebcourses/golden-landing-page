@@ -19,7 +19,7 @@
         class="w-full mx-auto hidden lg:block"
       >
         <nuxt-img
-          src="/img/section_3/bottels.png"
+          src="/img/section_3/bottle-2.png"
           alt="bottels"
           style="pointer-events: none"
           onContextMenu="return false;"

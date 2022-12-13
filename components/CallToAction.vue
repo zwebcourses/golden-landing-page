@@ -2,9 +2,9 @@
   <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-cover lg:bg-center overflow-hidden">
     <TheHeader />
     <!-- Label In Mobile -->
-    <div class="md:hidden block flex justify-end -mt-[50px] p-0">
+    <div class="md:hidden block flex justify-end -mt-[50px] ml-[17px] p-0">
       <nuxt-img
-        class="w-[150px]"
+        class="w-[110px] h-[170px]"
         src="/img/mobile/label.png"
         alt="label"
         format="webp"
@@ -52,7 +52,7 @@
         <!-- Product Image -->
         <div class="md:hidden w-[140%] absolute bottom-[0] -right-[105px]">
           <nuxt-img
-            class="md:hidden block w-[40%] absolute bottom-[-40px] right-[50px]"
+            class="md:hidden block w-[100px] absolute bottom-[24px] right-[124px]"
             src="/img/mobile/stamp_2.png"
             alt="stamp"
             style="pointer-events: none"

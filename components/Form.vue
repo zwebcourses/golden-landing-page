@@ -75,7 +75,7 @@ export default {
         body: data,
       };
       fetch(
-        "https://script.google.com/macros/s/AKfycbzlx58hlnA2vssOHPjw_qebuwoDoB18OTz2DtOUVV3wciDaiq8V-WPTiX0QTeKyqQcT-w/exec",
+        "https://script.google.com/macros/s/AKfycbyEUJPORrq_IVWA6EAsg7f5WhqLiGRy1mOe0Ai3pahG76FU-bEw4wtvGmo08P7_Ciu8/exec",
         requestOptions
       )
         .then((response) => response.json())

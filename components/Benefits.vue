@@ -7,7 +7,7 @@
       >خصائص المنتج</Title
     >
     <div
-      class="lg:w-full md:2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
+      class="lg:w-3/4 md:2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
     >
       <div
         class="md:p-8 w-3/4 lg:w-1/3 md:w-1/2 md:flex md:justify-center p-2 rounded-xl border border-black md:border-transparent"
@@ -41,32 +41,32 @@ export default {
   data: () => ({
     benefits: [
       {
-        img: "benefit_1.jpeg",
+        img: "benefit_1-min.png",
         alt: "benefit_1",
         text: "ازالة فورية لتجاعيد الوجه خلال دقيقتين ومعالجة 90% خلال 3 أشهر فقط",
       },
       {
-        img: "benefit_2.jpeg",
+        img: "benefit_2-min.png",
         alt: "benefit_2",
         text: "اخفاء ومعالجة تجاعيد الرقبة وشد اجزاء الجلد المترهله",
       },
       {
-        img: "benefit_3.jpeg",
+        img: "benefit_3-min.png",
         alt: "benefit_3",
         text: "ازالة بقع وتحاعيد اليد ومعالجتها",
       },
       {
-        img: "benefit_4.jpeg",
+        img: "benefit_4-min.png",
         alt: "benefit_4",
         text: "يقى من الشيخوخة المبكرة ويمنح البشرة ترطيبا فائقا",
       },
       {
-        img: "benefit_5.jpeg",
+        img: "benefit_5-min.png",
         alt: "benefit_5",
         text: "يسرع وتيرة التئام الجروح ويقلل اثار الندبات",
       },
       {
-        img: "benefit_6.jpeg",
+        img: "benefit_6-min.png",
         alt: "benefit_6",
         text: "ملئ حفر الوجه وترهلات الجلد بشكل دائم",
       },

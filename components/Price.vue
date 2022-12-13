@@ -49,7 +49,7 @@
         class="lg:w-full md:w-[129%] mx-auto lg:-mt-[301px] -mt-[230px] -mr-[100px] lg:-mr-[283px]"
       >
         <nuxt-img
-          src="/img/section_6/bottels_with_stamp1.png"
+          src="/img/section_6/bottels_with_stamp.png"
           alt="bottels"
           stye="pointer-events: none;"
           onContextMenu="return false;"

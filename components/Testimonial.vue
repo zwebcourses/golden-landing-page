@@ -1,5 +1,4 @@
 <template>
-  <!-- border-2 border-x-transparent border-b-transparent border-t-yellow-500  -->
   <section
     id="testimonial"
     class="block bg-testimonial-mobile-cover bg-cover bg-center my-8 pt-8 pb-4 mb-8 relative"
@@ -10,7 +9,7 @@
     <div class="mx-auto">
       <no-ssr placeholder="Loading...">
         <carousel-3d
-          :autoplay="true"
+          :autoplay="false"
           :autoplay-timeout="3000"
           :controls-visible="true"
           :controls-prev-html="'&#x203A; '"
@@ -27,7 +26,7 @@
             :index="i"
           >
             <div class="bg-white">
-              <nuxt-img
+              <nuxt-img  format="webp"
                 class="rounded-full mx-auto mt-8"
                 :src="`/img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
@@ -60,35 +59,35 @@ export default {
   data: () => ({
     reviewers: [
       {
-        img: "1.jpeg",
+        img: "1-min.png",
         alt: "review_1",
         name: "عبد العزيز الحميد",
         text:
           "جزاكم الله خيراً . كان عندى تصبغات فى الجلد وبعض الترهلات فى الجبهة والحمد للخ اقدر اقول ان راح اغلبهم وباقى ما كملت شهر",
       },
       {
-        img: "4.jpeg",
+        img: "4-min.png",
         alt: "review_2",
         name: "مرام ابا الخيل",
         text:
           "ما شاء الله لا قوة الا بالله نضااااااااااااره وخدودى زردت وصارت مليانة انا طايره من الفررررحه على موضوع الخدود واللى زاد الفرحه صديقتى ما شافتنى من فترة وزارتنى مالاسبوع اللى راح قالتلى ما شاء اللهعليك حليااااانهوبشرتك صايره تحنن",
       },
       {
-        img: "3.jpeg",
+        img: "3-min.png",
         alt: "review_3",
         name: "سعود الدوسري",
         text:
           "ممتاز والله . كنه سحر بأقل من 5 دقايق بدات تروح علامات التجاعيد اللى بالخد وحول العين . والله من جد تقل سغرنا 20 سنه",
       },
       {
-        img: "2.jpeg",
+        img: "2-min.png",
         alt: "review_4",
         name: "سهيل موسى المطيري",
         text:
           "ما توقعت انه يخفي اثار جرح وكنت احسب ان بحتاج اسوي ليزر بس صراحهاتصدمت من النتيجه . جد والله فوق الممتاز واختفى 80% تقريبا من اثار الجرح",
       },
       {
-        img: "5.jpeg",
+        img: "5-min.png",
         alt: "review_5",
         name: "فاطمة محمد الدغيري",
         text:

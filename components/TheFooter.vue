@@ -18,7 +18,7 @@
     </div>
     <div class="w-1/6 mt-2 mx-auto">
     <a href="https://instagram.com/goldencollagensa?igshid=YmMyMTA2M2Y=" target="_blank">
-      <nuxt-img
+      <nuxt-img  format="webp"
       class="w-[30px]"
         src="/img/instagram.png"
         alt="instagram"

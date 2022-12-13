@@ -19,6 +19,7 @@
           style="box-shadow: inset 0px -20px 3px 0px black"
         >
           <nuxt-img
+            format="webp"
             class="rounded-lg object-cover h-32 w-full"
             :src="`/img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"

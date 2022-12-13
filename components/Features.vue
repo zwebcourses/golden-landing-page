@@ -4,7 +4,7 @@
     class="block bg-features-mobile-cover bg-cover bg-center my-8 md:py-8"
   >
     <div class="w-full mx-auto lg:hidden">
-      <nuxt-img
+      <nuxt-img  format="webp"
         src="/img/section_3/bottle-2.png"
         alt="bottels"
         style="pointer-events: none"
@@ -18,7 +18,7 @@
       <div
         class="w-full mx-auto hidden lg:block"
       >
-        <nuxt-img
+        <nuxt-img  format="webp"
           src="/img/section_3/bottle-2.png"
           alt="bottels"
           style="pointer-events: none"

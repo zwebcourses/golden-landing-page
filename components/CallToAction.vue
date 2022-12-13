@@ -3,7 +3,7 @@
     <TheHeader />
     <!-- Label In Mobile -->
     <div class="md:hidden block flex justify-end -mt-[50px] ml-[17px] p-0">
-      <nuxt-img
+      <nuxt-img  format="webp"
         class="w-[110px] h-[170px]"
         src="/img/mobile/label.png"
         alt="label"
@@ -51,14 +51,14 @@
       <div class="flex flex-row justify-end relative">
         <!-- Product Image -->
         <div class="md:hidden w-[140%] absolute bottom-[0] -right-[105px]">
-          <nuxt-img
+          <nuxt-img  format="webp"
             class="md:hidden block w-[100px] absolute bottom-[24px] right-[124px]"
             src="/img/mobile/stamp_2.png"
             alt="stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
-          <nuxt-img
+          <nuxt-img  format="webp"
             src="/img/section_1/bottels.png"
             alt="bottels_with_stamp"
             style="pointer-events: none"
@@ -68,7 +68,7 @@
         <div
           class="hidden md:block place-self-center absolute right-[2px] bottom-[-33px] w-[70%]"
         >
-          <nuxt-img
+          <nuxt-img  format="webp"
             src="/img/section_1/bottels_with_stamp.png"
             alt="bottels_with_stamp"
             style="pointer-events: none"

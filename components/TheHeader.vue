@@ -5,7 +5,7 @@
     <div class="flex justify-between w-auto w-full pl-6 pr-2 pb-0">
       <div class="flex items-center">
         <router-link to="/">
-          <nuxt-img
+          <nuxt-img  format="webp"
             class="w-[40px] md:w-[80px]"
             src="/img/section_1/ultimate_logo.png"
             alt="Golden_Collagen"

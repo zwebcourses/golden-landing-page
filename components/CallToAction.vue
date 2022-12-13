@@ -58,7 +58,7 @@
             onContextMenu="return false;"
           />
           <nuxt-img  format="webp"
-            src="/img/section_1/bottels.png"
+            src="/img/section_1/bottels.webp"
             alt="bottels_with_stamp"
             style="pointer-events: none"
             onContextMenu="return false;"
@@ -68,7 +68,7 @@
           class="hidden md:block place-self-center absolute right-[2px] bottom-[-33px] w-[70%]"
         >
           <nuxt-img  format="webp"
-            src="/img/section_1/bottels_with_stamp.png"
+            src="/img/section_1/bottels_with_stamp.webp"
             alt="bottels_with_stamp"
             style="pointer-events: none"
             onContextMenu="return false;"

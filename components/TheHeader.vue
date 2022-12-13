@@ -7,7 +7,7 @@
         <router-link to="/">
           <nuxt-img  format="webp"
             class="w-[40px] md:w-[80px]"
-            src="/img/section_1/ultimate_logo.png"
+            src="/img/section_1/ultimate_logo.webp"
             alt="Golden_Collagen"
             style="pointer-events: none"
             onContextMenu="return false;"

@@ -14,11 +14,11 @@
             class="text-transparent md:text-3xl text-xl text-center font-extrabold bg-clip-text bg-gradient-to-r from-header to-yellow-800 lg:scale-x-125"
           >
             <span class="md:hidden block">
-              نشمن لك اختفاء التجاعيد<br />
+              نضمن لك اختفاء التجاعيد<br />
               بنتيجة لحظية او استرجاع المال
             </span>
             <span class="hidden md:block">
-              نشمن لك اختفاء التجاعيد بنتيجة لحظية او استرجاع المال
+              نضمن لك اختفاء التجاعيد بنتيجة لحظية او استرجاع المال
             </span>
           </h5>
         </div>
@@ -48,7 +48,7 @@
       <div
         class="lg:w-full md:w-[129%] mx-auto lg:-mt-[301px] -mt-[230px] -mr-[100px] lg:-mr-[283px]"
       >
-        <nuxt-img  format="webp"
+        <nuxt-img format="webp"
           src="/img/section_6/bottels_with_stamp.png"
           alt="bottels"
           stye="pointer-events: none;"

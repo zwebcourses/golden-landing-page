@@ -1,7 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/home/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'جولدن كولاجين',
@@ -39,10 +41,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
-    '@nuxtjs/imagemin',
-    '@nuxt/image',
+    '@nuxt/image'
   ],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],

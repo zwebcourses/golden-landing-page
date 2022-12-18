@@ -26,9 +26,9 @@
             :index="i"
           >
             <div class="bg-white">
-              <nuxt-img  format="webp"
+              <nuxt-img format="webp"
                 class="rounded-full mx-auto mt-8"
-                :src="`/img/mobile/reviewers/${reviewer.img}`"
+                :src="`img/mobile/reviewers/${reviewer.img}`"
                 :alt="reviewer.alt"
                 style="pointer-events: none;"
                 onContextMenu="return false;"
@@ -63,7 +63,7 @@ export default {
         alt: "review_1",
         name: "عبد العزيز الحميد",
         text:
-          "جزاكم الله خيراً . كان عندى تصبغات فى الجلد وبعض الترهلات فى الجبهة والحمد للخ اقدر اقول ان راح اغلبهم وباقى ما كملت شهر",
+          "جزاكم الله خيراً . كان عندى تصبغات فى الجلد وبعض الترهلات فى الجبهة والحمد لله اقدر اقول ان راح اغلبهم وباقى ما كملت شهر",
       },
       {
         img: "4-min.png",
@@ -77,7 +77,7 @@ export default {
         alt: "review_3",
         name: "سعود الدوسري",
         text:
-          "ممتاز والله . كنه سحر بأقل من 5 دقايق بدات تروح علامات التجاعيد اللى بالخد وحول العين . والله من جد تقل سغرنا 20 سنه",
+          "ممتاز والله . كنه سحر بأقل من 5 دقايق بدات تروح علامات التجاعيد اللى بالخد وحول العين . والله من جد تقل صغرنا 20 سنه",
       },
       {
         img: "2-min.png",

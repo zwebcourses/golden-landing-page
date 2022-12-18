@@ -87,26 +87,6 @@ export default {
           this.loading = false;
           alert("هناك خلل ما فى السيرفر!");
         });
-
-      // =====================================
-      // const form = document.getElementById("my-form");
-      // const data = new FormData(form);
-      // console.log(form);
-      // fetch(
-      //   "https://script.google.com/macros/s/AKfycbzlx58hlnA2vssOHPjw_qebuwoDoB18OTz2DtOUVV3wciDaiq8V-WPTiX0QTeKyqQcT-w/exec",
-      //   {
-      //     method: "POST",
-      //     body: data,
-      //   }
-      // )
-      //   .then(() => {
-      //     this.loading = false
-      //     this.$router.push({ name: "Thanks" });
-      //   })
-      //   .catch((e) => {
-      //     this.loading = false
-      //     alert("هناك خلل ما فى السيرفر!");
-      //   });
     },
   },
 };

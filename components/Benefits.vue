@@ -18,10 +18,9 @@
           class="md:w-full bg-white rounded-xl"
           style="box-shadow: inset 0px -20px 3px 0px black"
         >
-          <nuxt-img
-            format="webp"
+          <nuxt-img format="webp"
             class="rounded-lg object-cover h-32 w-full"
-            :src="`/img/mobile/benefits/${benefit.img}`"
+            :src="`img/mobile/benefits/${benefit.img}`"
             :alt="benefit.alt"
             style="pointer-events: none"
             onContextMenu="return false;"
@@ -54,7 +53,7 @@ export default {
       {
         img: "benefit_3-min.png",
         alt: "benefit_3",
-        text: "ازالة بقع وتحاعيد اليد ومعالجتها",
+        text: "يسرع وتيرة التئام الجروح ويقلل اثار الندبات",
       },
       {
         img: "benefit_4-min.png",
@@ -64,7 +63,7 @@ export default {
       {
         img: "benefit_5-min.png",
         alt: "benefit_5",
-        text: "يسرع وتيرة التئام الجروح ويقلل اثار الندبات",
+        text: "ازالة بقع وتحاعيد اليد ومعالجتها",
       },
       {
         img: "benefit_6-min.png",

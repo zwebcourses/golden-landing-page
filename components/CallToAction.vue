@@ -1,9 +1,9 @@
 <template>
   <section class="bg-cta-mobile-cover bg-no-repeat lg:bg-cta-cover bg-cover lg:bg-center overflow-hidden">
-    <TheHeader />
+    <TheHeader v-on:hideLabel="(status) => hideLabelFun(status)" />
     <!-- Label In Mobile -->
-    <div class="md:hidden block flex justify-end -mt-[50px] ml-[17px] p-0">
-      <nuxt-img  format="webp"
+    <div v-if="showLabel" class="md:hidden block flex justify-end -mt-[50px] ml-[17px] p-0">
+      <nuxt-img format="webp"
         class="w-[110px] h-[170px]"
         src="/img/mobile/label.png"
         alt="label"
@@ -76,7 +76,7 @@
         </div>
         <!-- Call To Action -->
         <div
-          class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 z-10 mx-auto"
+          class="w-1/2 md:w-1/6 md:ml-[445px] md:flex md:justify-center place-self-center mt-5 ml-[40px] z-10 mx-auto"
         >
           <CTAButton />
         </div>
@@ -93,5 +93,13 @@ export default {
     CTAButton: () =>
       import(/* webpackChunkName: 'CTAButton' */ "~/components/CTAButton.vue"),
   },
+  data: () => ({
+    showLabel: true
+  }),
+  methods: {
+    hideLabelFun(status) {
+      this.showLabel = !status
+    }
+  }
 };
 </script>

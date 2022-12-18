@@ -45,17 +45,17 @@
           </div>
         </div>
       </div>
-      <div class="w-full flex justify-center items-center bg-white mt-[50px] pb-4">
-        <div class="lg:w-1/2">
+      <div class="w-full flex flex-col lg:flex-row justify-center items-center bg-white mt-[50px] pb-4">
+        <div class="lg:w-1/2 w-3/4">
           <nuxt-img
             format="webp"
-            class="rounded-full bg-header w-3/4 m-2 p-4"
-            :src="`img/section_3/bottle-2.png`"
+            class="w-3/4 m-2 p-4"
+            :src="`img/section_1/ultimate_logo.webp`"
             style="pointer-events: none"
             onContextMenu="return false;"
           />
         </div>
-        <div class="lg:w-1/3">
+        <div class="lg:w-1/3 w-3/4">
           <h3 class="text-4xl font-extrabold text-right my-6">
             تقدم علامات Ultimate Wellness التجارية أفضل قيمة ممكنة
           </h3>

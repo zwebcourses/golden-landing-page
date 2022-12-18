@@ -81,7 +81,7 @@ export default {
         .then((response) => response.json())
         .then((result) => {
           this.loading = false;
-          this.$router.push({ name: "Thanks" });
+          this.$router.push({ name: "thanks" });
         })
         .catch((e) => {
           this.loading = false;

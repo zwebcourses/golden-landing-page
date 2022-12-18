@@ -34,7 +34,8 @@ module.exports = {
         'testimonial-mobile-cover': "url('~@/static/img/section_5/background.webp')",
         'price-mobile-cover': "url('~@/static/img/section_6/background.webp')",
         'form-mobile-cover': "url('~@/static/img/section_7/background.webp')",
-        'button': "url('~@/static/img/section_1/bottom.webp')"
+        'button': "url('~@/static/img/section_1/bottom.webp')",
+        'about': "url('~@/static/img/about/background.jpg')"
       },
     }
   },

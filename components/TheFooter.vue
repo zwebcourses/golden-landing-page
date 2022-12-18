@@ -5,16 +5,16 @@
     <div class="w-full md:w-5/6">
       <ul class="md:mx-auto md:w-2/3 flex justify-between items-center mt-0">
         <li class="clickable text-xs md:text-xl font-bold text-black hover:text-blue-400">
-          <a href="privacy.html"> سياسة الخصوصية </a>
+          <nuxt-link :to="{ name: 'privacy' }">سياسة الخصوصية</nuxt-link>
         </li>
         <li class="clickable text-xs md:text-xl font-bold text-black hover:text-blue-400">
-          <a href="shipping.html"> سياسة الشحن </a>
+          <nuxt-link :to="{ name: 'shipping' }">سياسة الشحن و الإسترجاع </nuxt-link>
         </li>
         <li class="clickable text-xs md:text-xl font-bold text-black hover:text-blue-400">
-          <a href="about-us.html"> من نحن </a>
+          <nuxt-link :to="{ name: 'about-us' }"> من نحن</nuxt-link>
         </li>
         <li class="clickable text-xs md:text-xl font-bold text-black hover:text-blue-400">
-          <a href="terms.html"> الشروط والاحكام </a>
+          <nuxt-link :to="{ name: 'terms' }">الشروط والاحكام</nuxt-link>
         </li>
       </ul>
     </div>

@@ -4,15 +4,15 @@
     <FloatBtn v-on:openDialog="dialog = true" />
     <TheDialog v-on:closeDialog="dialog = false" v-if="dialog" />
     <div class="w-full relative bg-white">
-      <div class="h-[200px] w-full flex justify-center bg-about bg-cover bg-no-repeat">
+      <div class="h-[200px] w-full flex justify-center bg-black">
         <div class="lg:w-3/4">
-          <h1 class="text-5xl font-extrabold p-4 text-center lg:my-8">نبذة عنا</h1>
+          <h1 class="text-header text-5xl font-extrabold p-4 text-center lg:my-8">نبذة عنا</h1>
           <div
             class="w-full flex flex-col justify-center items-center space-y-2 bg-white p-8 shadow-xl"
           >
             <h3 class="text-2xl font-extrabold text-center">مهمتنا</h3>
             <p class="text-center text-xl font-normal">
-              تتلخص مهمة Ultimate Wellness التابعه لمجموعه شىكات المحضر كابيتل و التي
+              تتلخص مهمة Ultimate Wellness التابعه لمجموعه شركات المحضر كابيتل و التي
               يمتلكها رجل الاعمال السعودي عمران محضر في جعل منتجات الصحة والعافية في
               متناول الجميع.
             </p>
@@ -120,29 +120,29 @@ export default {
       },
       {
         icon: "lined-trial@3x.webp",
-        title: "ما يزيد عن 3 ألف منتج",
+        title: "ما يزيد عن ٣٠ منتج",
         text:
           "نقدم نفس العلامات التجارية الشهيرة الموجودة في المتاجر الوطنية الكبيرة. تشحن Ultimate Wellness وتبيع جميع المنتجات بنفسها وليس بواسطة بائعين خارجيين يرسلون منتجات زائفة.",
       },
       {
         icon: "lined-star@3x.webp",
-        title: "ما يزيد عن 2 مليون تقييم موثوق",
+        title: "ما يزيد عن 20000 تقييم موثوق",
         text:
           "نسمح فقط بكتابة التقييمات بعد طلب العملاء للمنتج المحدد من Ultimate Wellness وهكذا يمكنك الشراء بطريقة أكثر ذكاءً.",
       },
       {
         icon: "lined-guarantee@3x.webp",
-        title: "ما يزيد عن 2 ملايين عميل نشط",
-        text: "يعاود ما يزيد عن 2 مليون عميل زيارتنا للحصول على صفقات ومنتجات ومكافآت.",
+        title: "ما يزيد عن ١٠٠،٠٠٠ عميل نشط",
+        text: "يعاود ما يزيد عن ١٠٠،٠٠٠ عميل زيارتنا للحصول على صفقات ومنتجات ومكافآت.",
       },
       {
         icon: "lined-global-ccl@3x.webp",
-        title: "ما يزيد عن 200 موظف في فريقنا",
+        title: "ما يزيد عن ١٠٠ موظف في فريقنا",
         text: "إننا بالفعل شركة عالمية وأعضاء فريقنا ينتشرون حول العالم.",
       },
       {
         icon: "centers.svg",
-        title: "3 مراكز معالجة",
+        title: "٢ مراكز معالجة",
         text:
           "مراكز المعالجة والمخازن الخاصة بنا مكيفة الهواء ومتوافقة مع ممارسات التصنيع الجيدة أو معايير أيزو للحفاظ على سلامة ونضارة المنتجات.",
       },

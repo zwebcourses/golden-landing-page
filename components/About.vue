@@ -10,7 +10,7 @@
     >
       <iframe
         class="w-full h-60 md:h-72"
-        src="https://www.youtube.com/embed/tQcM11NKyKk"
+        src="https://www.youtube.com/embed/TadOPlNgIRY"
         title="Golden Collagen"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

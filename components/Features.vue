@@ -28,7 +28,7 @@
       <div class="w-full mx-auto md:flex md:justify-end">
         <ul class="w-full list-none list-inside text-white text-2xl md:text-5xl">
           <li><span class="font-bold">-</span> البديل الطبيعى لحقن البوتكس</li>
-          <li><span class="font-bold">-</span> تأثير فورى لاخفاء التجاعيد</li>
+          <li><span class="font-bold">-</span>تأثير فعال لاخفاء التجاعيد</li>
           <li><span class="font-bold">-</span> يقى من الشيخوخة المبكرة</li>
           <li><span class="font-bold">-</span> يحسن نضارة البشرة</li>
           <li><span class="font-bold">-</span> يحد من ظهور تصبغات البشرة</li>

@@ -27,14 +27,14 @@
       </div>
       <div class="w-full mx-auto md:flex md:justify-end">
         <ul class="w-full list-none list-inside text-white text-2xl md:text-5xl">
-          <li><span class="font-bold">-</span> البديل الطبيعى لحقن البوتكس</li>
-          <li><span class="font-bold">-</span>تأثير فعال لاخفاء التجاعيد</li>
-          <li><span class="font-bold">-</span> يقى من الشيخوخة المبكرة</li>
-          <li><span class="font-bold">-</span> يحسن نضارة البشرة</li>
-          <li><span class="font-bold">-</span> يحد من ظهور تصبغات البشرة</li>
-          <li><span class="font-bold">-</span> يمنح البشرة ترطيبا فائقا ومكثفا</li>
-          <li><span class="font-bold">-</span> يسرع وتيرة التئام الجروح</li>
-          <li><span class="font-bold">-</span> توحيد لون البشرة</li>
+          <li><span class="font-bold">-</span> يغني عن حقن البوتكس و الفيلر</li>
+          <li><span class="font-bold">-</span> يساعد على ازالة التجاعيد </li>
+          <li><span class="font-bold">-</span> يقي من الشيخوخة المبكرة</li>
+          <li><span class="font-bold">-</span> يساعد على تحسين نضارة البشرة</li>
+          <li><span class="font-bold">-</span> يحد من ظهور تصبغات الجلد </li>
+          <li><span class="font-bold">-</span> يساعد على منح البشرة ترطيباً فائقاً</li>
+          <li><span class="font-bold">-</span> يساعد على تسريع وتيرة التئام الجروح</li>
+          <li><span class="font-bold">-</span> يساعد على توحيد لون البشرة</li>
         </ul>
       </div>
     </div>

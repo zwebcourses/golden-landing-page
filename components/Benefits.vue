@@ -7,7 +7,7 @@
       >خصائص المنتج</Title
     >
     <div
-      class="lg:w-3/4 md:2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
+      class="lg:w-3/4 md:w-2/3 md:mx-auto text-white w-full flex flex-row flex-wrap items-center justify-center px-4 mb-8"
     >
       <div
         class="md:p-8 w-3/4 lg:w-1/3 md:w-1/2 md:flex md:justify-center p-2 rounded-xl border border-black md:border-transparent"
@@ -43,32 +43,32 @@ export default {
       {
         img: "benefit_1-min.png",
         alt: "benefit_1",
-        text: "ازالة التجاعيد من اول استخدام و معالجة ٩٠٪ خلال ٣ اشهر فقط بدون آثار رجعية",
+        text: "يساعد على ازالة التجاعيد و معالجتها تماماً بعد ٣ اشهر",
       },
       {
         img: "benefit_2-min.png",
         alt: "benefit_2",
-        text: "اخفاء ومعالجة تجاعيد الرقبة وشد اجزاء الجلد المترهله",
+        text: "اخفاء و معالجة تجاعيد الرقبة و شد اجزاء الجلد المترهلة",
       },
       {
         img: "benefit_3-min.png",
         alt: "benefit_3",
-        text: "يسرع وتيرة التئام الجروح ويقلل اثار الندبات",
+        text: "يقي من الشيخوخة المبكرة و يمنح البشرة ترطيباً فائقاً",
       },
       {
         img: "benefit_4-min.png",
         alt: "benefit_4",
-        text: "يقى من الشيخوخة المبكرة ويمنح البشرة ترطيبا فائقا",
+        text: "يساعد على ازالة بقع و تجاعيد اليد ومعالجتها",
       },
       {
         img: "benefit_5-min.png",
         alt: "benefit_5",
-        text: "ازالة بقع وتحاعيد اليد ومعالجتها",
+        text: "يساعد على تسريع وتيرة التئام الجروح و يقلل آثار الندبات",
       },
       {
         img: "benefit_6-min.png",
         alt: "benefit_6",
-        text: "ملئ حفر الوجه وترهلات الجلد بشكل دائم",
+        text: "يساعد في ملئ حفر الوجة و ازالة  ترهلات الجلد بشكل تام",
       },
     ],
   }),

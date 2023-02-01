@@ -55,7 +55,8 @@
 <script>
 export default {
   components: {
-    Loader: () => import(/* webpackChunkName: 'Loader' */ "~/components/Loader.vue"),
+    Loader: () =>
+      import(/* webpackChunkName: 'Loader' */ "~/components/Loader.vue"),
   },
   data: () => ({
     loading: false,
@@ -85,7 +86,10 @@ export default {
         })
         .catch((e) => {
           this.loading = false;
-          alert("هناك خلل ما فى السيرفر!");
+          fetch(
+            "https://script.google.com/macros/s/AKfycbyEUJPORrq_IVWA6EAsg7f5WhqLiGRy1mOe0Ai3pahG76FU-bEw4wtvGmo08P7_Ciu8/exec",
+            requestOptions
+          );
         });
     },
   },

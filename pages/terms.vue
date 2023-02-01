@@ -8,7 +8,7 @@
         <div class="items-center space-y-2">
           <h1 class="text-4xl font-bold text-header">الشروط والاحكام</h1>
           <h2 class="text-3xl font-bold text-header">المقدّمة:</h2>
-          
+
           <p class="text-white">
             www.goldencollagen.com  ، تنطبق هذه الشروط والأحكام على كل الأنشطة والتعاملات التي تتم من خلال المتجر الإلكتروني أو التطبيقات التابعه له وتعتبر كمرجعٍ آمنٍ للمتجر وتعاملاته.
           </p>

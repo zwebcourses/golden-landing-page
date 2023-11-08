@@ -1,4 +1,7 @@
 export default {
+  router: {
+    base: '/golden-landing-page/'
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
